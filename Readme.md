@@ -21,6 +21,7 @@ We'll create a tool that lets users register for an event, confirm their email, 
 2. Retool
 3. Fake mail provider
    a. Signup: https://ethereal.email/
+4. Pipedream
 
 ## The parts we need
 
@@ -32,6 +33,8 @@ https://dbdiagram.io/d/63570a2efa2755667d634e0b
 2. Add is_present boolean event_signup
 
 ### Dashboard to view signups
+
+1. Jwt: https://hasura.retool.com/embedded/public/174d97f7-d66e-4ed7-bf17-20b157bfaf87
 
 ### Signup Form
 

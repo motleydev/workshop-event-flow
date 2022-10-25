@@ -1,0 +1,5 @@
+mutation VerifyUser($id: uuid!) {
+  update_event_signup_by_pk(pk_columns: { id: $id }, _set: { verified: true }) {
+    id
+  }
+}

@@ -1,0 +1,12 @@
+query AllEvents($slug: String) {
+  event_signup(where: { event: { slug: { _eq: $slug } } }) {
+    event {
+      slug
+    }
+    user {
+      name
+    }
+    is_verified
+    is_present
+  }
+}
